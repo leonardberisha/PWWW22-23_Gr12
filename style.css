@@ -60,4 +60,62 @@ header .navbar ul li .button{
 	margin-left: 30px;
 	padding: 8px 12px;
 }
+/*--------main-----*/
+main .home {
+width: 94%;
+height: 600px;
+background-image: url(Images/webpageimg1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin:150px 50px;
+}
+main .home article{
+margin-left: 100px;
+margin-bottom: 200px;
+}
+main .home article .heading{
+color: white;
+text-transform: uppercase;
+padding-left: 200px;
+padding-top: 150px;
+font-size: 30px;
+font-weight: 900;
+padding-bottom: 20px;
+}
+main .home article p{
+color:black;
+padding-bottom: 50px;
+font-size: 18px;
+font-weight:600;
+padding-left: 200px;
+padding-bottom: 50px;
+width:480px;
+}
+main .home article ul{
+display: flex;
+flex-direction: row;
+gap: 50px;
+margin-left: 200px;
+
+}
+main .home article ul li{
+color: white;
+list-style: none;
+margin-top: 100px;
+font-style: italic;
+font-weight: 1000;
+font-size: 20px;
+}
+main .home article .button{
+background-color: #F00E2C;
+color: white;
+width: 200px;
+height: 37px;
+border: none;
+text-transform: uppercase;
+border-radius:5px;
+margin-left: 200px;
+padding: 8px 12px;
+text-decoration: none;
+}
 
