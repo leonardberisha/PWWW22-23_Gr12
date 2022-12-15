@@ -9,6 +9,14 @@
 	font-family: 'Poppins', sans-serif;
 }
 /*--header --*/
+html
+{
+overflow-x: hidden;
+	font-size: 100%;
+	scroll-padding-top: 7rem;
+
+}
+
 header{
 	position: absolute;
 	right: 0;
@@ -69,6 +77,7 @@ header .navbar ul li a:hover{
 	margin-right: 55px;
 	font-size: 10px;
 	font-family: sans-serif;
+
 }
 
  header .navbar ul li .button:hover{
@@ -76,6 +85,8 @@ header .navbar ul li a:hover{
  	background-color:#CE0621 ;
  	transition: 0.3s ease;
  }
+
+
 /*--------main-----*/
 main .home {
 	width: 94%;
@@ -183,4 +194,55 @@ color: black;
 	font-family: sans-serif;
 	font-weight: 700;
 	vertical-align: middle;
+}
+/*rregullimi me CSS i logove te paraqitura me ane te imazheve*/
+.logo-image img{
+	width: 80px;
+	height: 80px;
+}
+.logo-image{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-left: 350px;
+	gap: 90px;
+	margin-top: 100px;
+}
+/*rregullimi i pjeses meet the distributor*/
+.laptop{
+	width: 80%;
+	margin: 150px;
+	margin-left: 200px;
+}
+.laptop table tr td{
+	padding: 20px;
+}
+.laptop table tr td p{
+	width: 380px;
+}
+.laptop table tr td #p1{
+	font-size: 18px;
+	font-weight: 700;
+	font-family: sans-serif;
+	text-transform: uppercase;
+margin-bottom: 30px;
+}
+.laptop table tr td .p2{
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #7E7E7E;
+}
+.laptop table tr td .button{
+	background-color: #F00E2C;
+	color: white;
+	width: 180px;
+	height: 30px;
+	border: none;
+	text-transform: uppercase;
+	border-radius:2px;
+	padding: 9px 14px;
+	text-decoration: none;
+	font-size: 8px;
+	font-family: sans-serif;
+	font-weight: normal;
 }
